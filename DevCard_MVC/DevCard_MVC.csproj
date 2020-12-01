@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\assets\fontawesome\js\all.js" />
+    <None Include="wwwroot\assets\fonts\IranianSans.svg" />
+    <None Include="wwwroot\assets\fonts\IranianSans.woff2" />
+    <None Include="wwwroot\assets\plugins\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\plugins\jquery-3.4.1.min.js" />
+    <None Include="wwwroot\assets\plugins\popper.min.js" />
+  </ItemGroup>
+
 </Project>
