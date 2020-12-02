@@ -8,7 +8,6 @@ E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\bin\Debug\n
 E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\bin\Debug\netcoreapp3.1\DevCard_MVC.pdb
 E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\bin\Debug\netcoreapp3.1\DevCard_MVC.Views.dll
 E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\bin\Debug\netcoreapp3.1\DevCard_MVC.Views.pdb
-E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\DevCard_MVC.csprojAssemblyReference.cache
 E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\DevCard_MVC.AssemblyInfoInputs.cache
 E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\DevCard_MVC.AssemblyInfo.cs
 E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\DevCard_MVC.csproj.CoreCompileInputs.cache
@@ -108,4 +107,6 @@ E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\bin\Debug\n
 E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
-E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Projects.cshtml.g.cs
+E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\DevCard_MVC.csprojAssemblyReference.cache
+E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Components\Projects\_Projects.cshtml.g.cs
+E:\Atriya Course\Asp Core 5 Mvc\Asp core example\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Components\LatestArticles\LatestArticles.cshtml.g.cs

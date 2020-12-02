@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ViewComponents",
+    "\\Views",
+    "\\Views\\Home",
+    "\\Views\\Home\\Component",
+    "\\Views\\Home\\Component\\Projects",
+    "\\Views\\Shared"
+  ],
+  "SelectedNode": "\\ViewComponents\\ProjectsViewComponent.cs",
+  "PreviewInSolutionExplorer": false
+}
