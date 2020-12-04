@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using DevCard_MVC.Controllers
+<!DOCTYPE html>
 <html lang="fa">
 
 <head>
@@ -19,22 +20,27 @@
 
 <body>
 
-<partial name="Header"/>
-<div class="main-wrapper">
+    <partial name="Header" />
+    <div class="main-wrapper">
 
 
-    @RenderBody()
+        @RenderBody()
 
-    <partial name="Footer"/>
+        <partial name="Footer" />
 
-    
 
-</div>
 
-<!-- Javascript -->
-<script src="~/assets/plugins/jquery-3.4.1.min.js"></script>
-<script src="~/assets/plugins/popper.min.js"></script>
-<script src="~/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    </div>
+
+    <!-- Javascript -->
+    <script src="~/assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="~/assets/plugins/popper.min.js"></script>
+    <script src="~/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    @* Validation jquery Scripts(unobtrusive)*@
+    @* <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>*@
+
+    @*<script type="text/javascript" src="@Url.Action("Index","test")"></script>*@
 </body>
 
 </html>

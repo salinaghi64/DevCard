@@ -1,6 +1,8 @@
-﻿using DevCard_MVC.Models;
+﻿using System;
+using DevCard_MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Http;
 
 namespace DevCard_MVC.Controllers
 {
@@ -17,11 +19,35 @@ namespace DevCard_MVC.Controllers
             return View();
         }
 
-
+        [HttpGet]
         public IActionResult Contact()
         {
+            var model = new Contact();
+            return View(model);
+            
+        }
+
+        //[HttpPost]
+        //public JsonResult Contact(IFormCollection form)
+        //{
+        //    var name = form["name"];
+        //    return Json("ok()");
+        //}
+
+        [HttpPost]
+        public IActionResult Contact(Contact model)
+        {
+            if (!ModelState.IsValid)
+            {
+                ViewBag.error = "اطلاعات وارد شده صحیح نیست لطفا دوباره تلاش کنید";
+                return View(model);
+            }
+
+            ViewBag.success = "پیغام شما با موفقیت ارسال شد. با تشکر";
             return View();
         }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
